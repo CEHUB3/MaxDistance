@@ -13,7 +13,19 @@ public class TestProgram {
 
 		Place p1 = new Place("Origo", 0, 0);
 		Place p2 = new Place("Utopia", 3, 4);
-		
+		Place p3 = new Place("Mars", 5, 6);
+
+		Place[] placeList = new Place[3] ;
+
+		placeList[0] = p1;
+		placeList[1] = p2;
+		placeList[2] = p3;
+
+		public int maxDistance(placeList){
+
+
+		}
+
 	}
 
 }
