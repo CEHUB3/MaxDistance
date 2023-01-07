@@ -11,8 +11,8 @@ public class Place {
 
     }
 
-    public int distanceTo(Place a){
-        return Math.sqrt((a.x-this.x))*
+    public double distanceTo(Place a){
+        return Math.sqrt((a.x-this.x)*(a.x-this.x) + (a.y-this.y)*(a.y-this.y));
     }
 
 }

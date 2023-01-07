@@ -21,11 +21,15 @@ public class TestProgram {
 		placeList[1] = p2;
 		placeList[2] = p3;
 
-		public int maxDistance(placeList){
+		double distanceP1P2 = p1.distanceTo(p2);
+		System.out.println(distanceP1P2);
+
+
+		//public int maxDistance(placeList){
 
 
 		}
 
 	}
 
-}
+

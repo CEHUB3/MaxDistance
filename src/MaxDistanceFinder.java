@@ -1,7 +1,7 @@
 //Skriv metoden i denna klass
-public class MaxDistanceFinder {
-
-    public int maxDistance(Place [] array){
-
-    }
-}
+//public class MaxDistanceFinder {
+//
+//    public int maxDistance(Place [] array){
+//
+//    }
+//}
